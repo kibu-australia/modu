@@ -4,8 +4,13 @@ Modu, like [modular](https://github.com/juxt/modular) or [system](https://github
 
 Modu uses our cljx fork of Stuart Sierra's [component](https://github.com/stuartsierra/component) found [here](https://github.com/kibu-australia/component)
 
-It currently includes:
+Modules include:
 
+* [datascript](https://github.com/kibu-australia/modu/tree/master/modules/datascript)
+* [om](https://github.com/kibu-australia/modu/tree/master/modules/om)
+* [pushy](https://github.com/kibu-australia/modu/tree/master/modules/pushy)
+* [reagent](https://github.com/kibu-australia/modu/tree/master/modules/reagent)
+* [sente](https://github.com/kibu-australia/modu/tree/master/modules/sente)
 
 ## Contributing 
 
