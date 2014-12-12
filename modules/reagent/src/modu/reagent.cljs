@@ -13,13 +13,3 @@
 
 (defn new-reagent [& {:keys [comp container] :as opts}]
   (map->Reagent opts))
-
-(defrecord ReagentComponent [component state]
-  component/Lifecycle
-  (start [component]
-    (assoc component :component (fn [] (component state))))
-  (stop [component]
-    (assoc component :component nil)))
-
-(defn new-component [& {:keys [component state] :as opts}]
-  (map->ReagentComponent opts))
