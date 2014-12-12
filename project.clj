@@ -8,7 +8,8 @@
 
   :sub ["modules/reagent"
         "modules/om"
-        "modules/datascript"]
+        "modules/datascript"
+        "modules/sente"]
 
   :aliases {"deploy-all" ["sub" "deploy" "clojars"]
             "install-all" ["sub" "install"]}
