@@ -9,7 +9,7 @@
   (stop [component]
     (when container
       (reagent/unmount-component-at-node container))
-    (assoc component :reagent nil)))
+    (dissoc component :reagent)))
 
 (defn new-reagent [& {:keys [comp container] :as opts}]
   (map->Reagent opts))
