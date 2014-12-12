@@ -6,7 +6,8 @@
 
   :plugins [[lein-sub "0.2.4"]]
 
-  :sub ["modules/reagent"]
+  :sub ["modules/reagent"
+        "modules/om"]
 
   :aliases {"deploy-all" ["sub" "deploy" "clojars"]
             "install-all" ["sub" "install"]}
