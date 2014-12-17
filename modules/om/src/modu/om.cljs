@@ -12,4 +12,4 @@
     (dissoc component :om)))
 
 (defn new-om [& {:keys [component cursor options] :as opts}]
-  (map->OmRoot opts))
+  (map->Om opts))
