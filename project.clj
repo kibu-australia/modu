@@ -12,7 +12,8 @@
         "modules/sente"
         "modules/pushy"
         "modules/figwheel"
-        "modules/weasel"]
+        "modules/weasel"
+        "modules/cursor"]
 
   :aliases {"deploy-all" ["sub" "deploy" "clojars"]
             "install-all" ["sub" "install"]}

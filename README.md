@@ -13,6 +13,7 @@ Modules include:
 * [sente](https://github.com/kibu-australia/modu/tree/master/modules/sente)
 * [figwheel](https://github.com/kibu-australia/modu/tree/master/modules/figwheel)
 * [weasel](https://github.com/kibu-australia/modu/tree/master/modules/weasel)
+* [cursor](https://github.com/kibu-australia/modu/tree/master/modules/cursor)
 
 ## Usage
 
@@ -27,13 +28,13 @@ To use component on the client side, we need to use `set!` instead of `alter-var
             [modu.sente :refer [new-sente-client]]))
 
 (def ^:dynamic system
-  (component/system-map 
+  (component/system-map
     {:sente (new-sente-client :path "/chsk" :options {:type :auto})}))
 
-(set! system (component/start system)) 
+(set! system (component/start system))
 ```
 
-## Contributing 
+## Contributing
 
 Pull requests welcome for any Clojurescript library we don't currently have!
 
