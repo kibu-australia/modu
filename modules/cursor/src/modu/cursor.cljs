@@ -8,7 +8,9 @@
   (stop [component]
     (if reset?
       component
-      (assoc component :init-val @(:cursor component))))
+      (if-let [cursor (:cursor component)]
+        (assoc component :init-val @cursor)
+        component)))
 
   ISwap
   (-swap! [component f]
