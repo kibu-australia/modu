@@ -5,7 +5,9 @@
 (defrecord Om [component cursor options]
   component/Lifecycle
   (start [component]
-    (assoc component :om (om/root component cursor options)))
+    (assoc component :om (om/root (:component component)
+                                  (:cursor component)
+                                  options)))
   (stop [component]
     (when-let [target (:target options)]
       (om/detach-root target))
