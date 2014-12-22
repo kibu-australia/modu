@@ -11,6 +11,7 @@ Modules include:
 * [pushy](https://github.com/kibu-australia/modu/tree/master/modules/pushy)
 * [reagent](https://github.com/kibu-australia/modu/tree/master/modules/reagent)
 * [sente](https://github.com/kibu-australia/modu/tree/master/modules/sente)
+* [figwheel](https://github.com/kibu-australia/modu/tree/master/modules/figwheel)
 
 ## Contributing 
 

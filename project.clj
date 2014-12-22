@@ -10,7 +10,8 @@
         "modules/om"
         "modules/datascript"
         "modules/sente"
-        "modules/pushy"]
+        "modules/pushy"
+        "modules/figwheel"]
 
   :aliases {"deploy-all" ["sub" "deploy" "clojars"]
             "install-all" ["sub" "install"]}
