@@ -42,4 +42,4 @@ Pull requests welcome for any Clojurescript library we don't currently have!
 
 Copyright © 2014
 
-Distributed under the Eclipse Public License either version 1.0
+Distributed under the Eclipse Public License version 1.0
