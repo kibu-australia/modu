@@ -18,15 +18,15 @@ A module for [om](https://github.com/swannodette/om)
 (defn new-system []
   (component/system-map
     :om (new-om :component my-component
-                :cursor {:foo :bar}
+                :root-cursor {:foo :bar}
                 :options {:target (. js/document (getElementById "foo"))})))
 
 ;; using modu.cursor
 (defn new-system-with-cursor []
   (-> (component/system-map
-        :cursor (new-cursor :init-val {:foo :bar})
+        :root-cursor (new-root-cursor :init-val {:foo :bar})
         :om (new-om :component my-component
                     :options {:target (. js/document (getElementById "foo"))}))
       (component/system-using 
-        {:om {:cursor :cursor}})))
+        {:om {:root-cursor :root-cursor}})))
 ```
