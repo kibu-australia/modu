@@ -12,6 +12,7 @@ Modules include:
 * [reagent](https://github.com/kibu-australia/modu/tree/master/modules/reagent)
 * [sente](https://github.com/kibu-australia/modu/tree/master/modules/sente)
 * [figwheel](https://github.com/kibu-australia/modu/tree/master/modules/figwheel)
+* [weasel](https://github.com/kibu-australia/modu/tree/master/modules/weasel)
 
 ## Contributing 
 

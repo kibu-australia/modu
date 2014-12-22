@@ -11,7 +11,8 @@
         "modules/datascript"
         "modules/sente"
         "modules/pushy"
-        "modules/figwheel"]
+        "modules/figwheel"
+        "modules/weasel"]
 
   :aliases {"deploy-all" ["sub" "deploy" "clojars"]
             "install-all" ["sub" "install"]}
