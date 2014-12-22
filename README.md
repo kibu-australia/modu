@@ -11,6 +11,27 @@ Modules include:
 * [pushy](https://github.com/kibu-australia/modu/tree/master/modules/pushy)
 * [reagent](https://github.com/kibu-australia/modu/tree/master/modules/reagent)
 * [sente](https://github.com/kibu-australia/modu/tree/master/modules/sente)
+* [figwheel](https://github.com/kibu-australia/modu/tree/master/modules/figwheel)
+* [weasel](https://github.com/kibu-australia/modu/tree/master/modules/weasel)
+
+## Usage
+
+Refer to the `README.md` file inside each module for individual usage.
+
+
+To use component on the client side, we need to use `set!` instead of `alter-var-root!`
+
+```clojure
+(ns foo.core
+  (:require [com.stuartsierra.component :as component]
+            [modu.sente :refer [new-sente-client]]))
+
+(def ^:dynamic system
+  (component/system-map 
+    {:sente (new-sente-client :path "/chsk" :options {:type :auto})}))
+
+(set! system (component/start system)) 
+```
 
 ## Contributing 
 
