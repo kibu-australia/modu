@@ -7,7 +7,7 @@ A module for [om](https://github.com/swannodette/om)
 ```clojure
 (ns foo.core
   (:require [modu.om :refer [new-om]]
-            [modu.cursor :refer [new-cursor]]
+            [modu.cursor :refer [new-root-cursor]]
             [om.core :as om]
             [om.dom :as dom]
             [com.stuartsierra.component :as component]))
