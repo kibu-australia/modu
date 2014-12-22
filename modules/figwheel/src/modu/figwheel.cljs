@@ -1,4 +1,4 @@
-(ns modu.sente
+(ns modu.figwheel
   (:require [com.stuartsierra.component :as component]
             [figwheel.client :as fw]))
 

@@ -1,4 +1,4 @@
-(ns modu.sente
+(ns modu.weasel
   (:require [com.stuartsierra.component :as component]
             [weasel.repl :as repl]))
 
