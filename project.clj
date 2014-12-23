@@ -1,4 +1,4 @@
-(defproject kibu/modu "0.1.0-SNAPSHOT"
+(defproject modu "0.1.0-SNAPSHOT"
   :description "Clojurescript modules for Component"
   :url "http://github.com/kibu-australia/modu"
   :license {:name "Eclipse Public License"
